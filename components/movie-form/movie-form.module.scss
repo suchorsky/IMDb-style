@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 50%;
+  margin: auto;
+  gap: 2rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.submit {
+  padding: 0.4rem;
+  background-color: white;
+  transition: background-color 0.3s ease;
+
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  /* Hover effect */
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.error {
+  color: red;
+}

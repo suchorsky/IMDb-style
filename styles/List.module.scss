@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); // Three columns with a minimum width of 300px
+  gap: 20px; // Adjust the gap between cards as needed
+  justify-content: center; // Center the grid horizontally
+
+  // Optional: Add styles for adjusting other layout properties
+  max-width: 1200px; // Set a max width for the container
+  margin: 0 auto;
+}
