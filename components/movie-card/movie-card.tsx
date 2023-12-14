@@ -1,6 +1,6 @@
 import React from "react";
 import { Poller_One } from "next/font/google";
-import { Film } from "@/types";
+import { Movie } from "@/types";
 import styles from "./movie-card.module.scss";
 
 const pollerOne = Poller_One({
@@ -10,7 +10,7 @@ const pollerOne = Poller_One({
 });
 
 interface MovieCardProps {
-  movie: Film;
+  movie: Movie;
 }
 
 const MovieCard = ({ movie }: MovieCardProps) => {

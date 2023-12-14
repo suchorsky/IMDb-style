@@ -1,4 +1,4 @@
-export interface Film {
+export interface Movie {
   created: string;
   episodeID: number;
   director: string;
