@@ -1,11 +1,10 @@
 import React from "react";
 import createApolloClient from "@/apollo-client";
-
 import MovieCard from "@/components/movie-card/movie-card";
 import { GET_ALL_MOVIES } from "@/queries/getAllMovies";
 import { Film } from "@/types";
-import styles from "@/styles/List.module.scss";
 import PageLayout from "@/components/page-layout/page-layout";
+import styles from "@/styles/List.module.scss";
 
 interface ListProps {
   movies: Film[];
